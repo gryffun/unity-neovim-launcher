@@ -2,8 +2,6 @@
 
 This is a simple way to get Unity to link with Neovim with some of the functionality of the supported external editors. I was having trouble finding answers on how to do it online myself. Hope this helps someone.
 
-Currently this only contains the files to configure it for Windows, as that's what I use.
-
 # Windows
 
 unity_nvim_launcher.exe works to link Unity and Neovim on windows.
@@ -19,7 +17,8 @@ Essentially you can run this command after cding to the location of the ps1 file
 
 # Linux
 
-I don't know if this is an issue on Linux as I haven't tested it yet. I will get around to setting up a Linux version at some point but I don't use Unity on my Linux set up rn so don't really need to yet.
+Simply link it to the unity-nvim-linker.sh in this repo and pass the args 
+<pre> $(File) $(Line) </pre> 
 
 # Nice stuff to have with it
 
